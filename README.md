@@ -34,10 +34,6 @@ Then, load your script file:
 
 If you would like to contribute to the project, please fork the repository and create a pull request with your changes.
 
-## Authors
-
-* **Your Name** - *Initial work*
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
@@ -46,7 +42,3 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 * Inspiration
 * etc
-
-## Contact
-
-You can contact me via my website at https://narettolilian.me for more information about me and my work.
