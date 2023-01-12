@@ -1,21 +1,52 @@
-Il faut compiler le package java avant de pourvoir l'utiliser dans le ficher scala.
+# Scala-Quadtree
 
-compiler dans le même répertoire que le fichier scala avec :
+This repository contains the code for a Scala Quadtree project. 
 
+## Getting Started
+
+Before you can use the package in the Scala file, you will need to compile the Java package. To do this, navigate to the project directory and run the following command:
+```
 javac -classpath . -d . ImageReaderWriter.java
-
-compiler également les packages scala avec :
-
+```
+You will also need to compile the Scala packages with:
+```
 scalac -deprecation -classpath . -d . ImageInterfacePackage.scala ClassificationKmeansPackage.scala CodageHuffmanPackage.scala ClassificationHuffmanPackage.scala
-
-importer les packages en haut du fichier monscript.scala avec :
-
+```
+Once the packages are compiled, you can import them at the top of your script file (monscript.scala) with:
+```
 import nomDuPackage._
-
-puis lancer la console scala avec :
-
+```
+To run the project, start the Scala console with:
+```
 scala -d .
-
-executer le script principal scala dans la console avec :
-
+```
+Then, load your script file:
+```
 :load monscript.scala
+```
+
+## Built With
+
+* [Scala](https://www.scala-lang.org/) - Programming language
+* [Java](https://www.java.com/) - Programming language
+
+## Contributing
+
+If you would like to contribute to the project, please fork the repository and create a pull request with your changes.
+
+## Authors
+
+* **Your Name** - *Initial work*
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Acknowledgments
+
+* Inspiration
+* etc
+
+## Contact
+
+You can contact me via my website at https://narettolilian.me for more information about me and my work.
